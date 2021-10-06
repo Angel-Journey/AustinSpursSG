@@ -12,3 +12,8 @@ of the normal lesson.
     2. Code Along: Show
     3. Code Along: Create
     4. Lab: Update & Delete
+
+old scripts:
+"start": "PORT=7165 react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test"
