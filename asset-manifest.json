@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AustinSpursSG/static/css/main.432dfbff.chunk.css",
+    "main.js": "/AustinSpursSG/static/js/main.3f218ed3.chunk.js",
+    "main.js.map": "/AustinSpursSG/static/js/main.3f218ed3.chunk.js.map",
+    "runtime-main.js": "/AustinSpursSG/static/js/runtime-main.c8529072.js",
+    "runtime-main.js.map": "/AustinSpursSG/static/js/runtime-main.c8529072.js.map",
+    "static/js/2.b4929f79.chunk.js": "/AustinSpursSG/static/js/2.b4929f79.chunk.js",
+    "static/js/2.b4929f79.chunk.js.map": "/AustinSpursSG/static/js/2.b4929f79.chunk.js.map",
+    "index.html": "/AustinSpursSG/index.html",
+    "static/css/main.432dfbff.chunk.css.map": "/AustinSpursSG/static/css/main.432dfbff.chunk.css.map",
+    "static/js/2.b4929f79.chunk.js.LICENSE.txt": "/AustinSpursSG/static/js/2.b4929f79.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8529072.js",
+    "static/js/2.b4929f79.chunk.js",
+    "static/css/main.432dfbff.chunk.css",
+    "static/js/main.3f218ed3.chunk.js"
+  ]
+}
