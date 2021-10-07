@@ -17,3 +17,13 @@ old scripts:
 "start": "PORT=7165 react-scripts start",
 "build": "react-scripts build",
 "test": "react-scripts test"
+
+
+Old index.js router:
+import { BrowserRouter } from 'react-router-dom'
+
+const appJsx = (
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App />
+  </BrowserRouter>
+)
