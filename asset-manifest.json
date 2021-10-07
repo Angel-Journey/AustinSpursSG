@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/AustinSpursSG/static/css/main.0d891adc.chunk.css",
-    "main.js": "/AustinSpursSG/static/js/main.4602aecf.chunk.js",
-    "main.js.map": "/AustinSpursSG/static/js/main.4602aecf.chunk.js.map",
+    "main.js": "/AustinSpursSG/static/js/main.37fbc8e1.chunk.js",
+    "main.js.map": "/AustinSpursSG/static/js/main.37fbc8e1.chunk.js.map",
     "runtime-main.js": "/AustinSpursSG/static/js/runtime-main.c8529072.js",
     "runtime-main.js.map": "/AustinSpursSG/static/js/runtime-main.c8529072.js.map",
-    "static/js/2.588ef9a6.chunk.js": "/AustinSpursSG/static/js/2.588ef9a6.chunk.js",
-    "static/js/2.588ef9a6.chunk.js.map": "/AustinSpursSG/static/js/2.588ef9a6.chunk.js.map",
+    "static/js/2.b879ec5b.chunk.js": "/AustinSpursSG/static/js/2.b879ec5b.chunk.js",
+    "static/js/2.b879ec5b.chunk.js.map": "/AustinSpursSG/static/js/2.b879ec5b.chunk.js.map",
     "index.html": "/AustinSpursSG/index.html",
     "static/css/main.0d891adc.chunk.css.map": "/AustinSpursSG/static/css/main.0d891adc.chunk.css.map",
-    "static/js/2.588ef9a6.chunk.js.LICENSE.txt": "/AustinSpursSG/static/js/2.588ef9a6.chunk.js.LICENSE.txt"
+    "static/js/2.b879ec5b.chunk.js.LICENSE.txt": "/AustinSpursSG/static/js/2.b879ec5b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c8529072.js",
-    "static/js/2.588ef9a6.chunk.js",
+    "static/js/2.b879ec5b.chunk.js",
     "static/css/main.0d891adc.chunk.css",
-    "static/js/main.4602aecf.chunk.js"
+    "static/js/main.37fbc8e1.chunk.js"
   ]
 }
