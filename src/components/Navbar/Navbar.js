@@ -5,7 +5,7 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Events', href: '/AustinSpursSG/events/', current: true },
-  { name: 'About', href: '/AustinSpursSG/about/', current: false },
+  { name: 'About', href: '/AustinSpursSG/about', current: false },
   { name: 'Community', href: '/AustinSpursSG/community/', current: false },
   { name: 'Calendar', href: '/AustinSpursSG/calendar/', current: false }
 ]

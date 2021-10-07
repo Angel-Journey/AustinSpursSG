@@ -12,6 +12,8 @@ import SignIn from './components/auth/SignIn'
 import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
 
+import About from './components/About/About'
+
 class App extends Component {
   constructor (props) {
     super(props)
@@ -58,6 +60,18 @@ class App extends Component {
           />
         ))}
 	      <main className='container'>
+
+          <Route
+            exact
+            path="/AustinSpursSG/about"
+            render={({ history }) => (
+              <About
+                history={history}
+                handleSignupOrLogin={this.handleSignupOrLogin}
+              />
+            )}
+          />
+
 	        <Route
             path='/sign-up'
             render={() => (
