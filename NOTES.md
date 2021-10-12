@@ -27,3 +27,6 @@ const appJsx = (
     <App />
   </BrowserRouter>
 )
+
+rounded circle image:
+className="h-8 w-8 rounded-full"
