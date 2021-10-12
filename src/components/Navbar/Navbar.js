@@ -5,10 +5,9 @@ import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Events', href: '/AustinSpursSG/events/', current: true },
+  { name: 'Events', href: '/AustinSpursSG/events', current: false },
   { name: 'About', href: '/AustinSpursSG/about', current: false },
-  { name: 'Community', href: '/AustinSpursSG/community/', current: false },
-  { name: 'Calendar', href: '/AustinSpursSG/calendar/', current: false }
+  { name: 'Community', href: '/AustinSpursSG/community', current: false }
 ]
 
 function classNames (...classes) {
@@ -55,13 +54,13 @@ export default function Navbar () {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
-                <img
-                  width = "50"
-                  src="./images/Logo.png"
-                  alt=""
-                />
-
+                <div>
+                  <img
+                    width = "50"
+                    src="./images/Logo.png"
+                    alt=""
+                  />
+                </div>
                 {/* Profile dropdown
                 <Menu as="div" className="ml-3 relative">
                   <div>

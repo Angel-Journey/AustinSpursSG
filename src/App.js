@@ -12,6 +12,8 @@ import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
 
 import About from './components/About/About'
+import Events from './components/Events/Events'
+import Community from './components/Community/Community'
 
 class App extends Component {
   constructor (props) {
@@ -61,9 +63,31 @@ class App extends Component {
 
           <Route
             exact
+            path="/AustinSpursSG/events"
+            render={({ history }) => (
+              <Events
+                history={history}
+                handleSignupOrLogin={this.handleSignupOrLogin}
+              />
+            )}
+          />
+
+          <Route
+            exact
             path="/AustinSpursSG/about"
             render={({ history }) => (
               <About
+                history={history}
+                handleSignupOrLogin={this.handleSignupOrLogin}
+              />
+            )}
+          />
+
+          <Route
+            exact
+            path="/AustinSpursSG/community"
+            render={({ history }) => (
+              <Community
                 history={history}
                 handleSignupOrLogin={this.handleSignupOrLogin}
               />
